@@ -1,7 +1,9 @@
-import { greet } from "./utils/greet";
+import {allBabyNames} from "./ContainerForButtons";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return (<div className="babyNamesButtons">
+    {allBabyNames}
+  </div>)
 }
 
 export default App;

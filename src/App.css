@@ -1,0 +1,26 @@
+
+
+.m, .f {
+    margin: 2px;
+}
+
+.m {
+    background-color: lightblue;
+   
+}
+
+.f {
+    background-color: pink;
+    
+}
+
+.babyNamesButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #C8C8C8;
+    padding: 20px;
+    border-top: 2px solid black;
+    justify-content: centerg;
+}
+

@@ -1,4 +1,5 @@
 import babyNameData from './babyNamesData.json';
+import { comparing } from './utils/comparing';
 
 export interface babyName {
     id : number;
@@ -18,11 +19,8 @@ function  NameButton (props : babyName) : JSX.Element {
     )
 }
 
-const sortedNames = [...babyNameData].sort(function(a, b){
-    if(a.name < b.name) { return -1; }
-    if(a.name > b.name) { return 1; }
-    return 0;
-})
+const sortedNames = [...babyNameData].sort(comparing)
+
 const allBabyNames = sortedNames.map((value,index) => <NameButton 
     name = {value.name}
     id = {value.id}
