@@ -1,4 +1,23 @@
 
+header {
+    color: rgb(46, 120, 145);
+    text-align: center;
+}
+
+.searchSection {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 170px;
+    height: 30px;
+    border-color: pink;
+    border-width: 4px;
+    font-weight: bold;
+    display: inline-block;
+    
+}
 
 .m, .f {
     margin: 2px;
@@ -14,13 +33,18 @@
     
 }
 
+.containerForNames {
+    background: #C8C8C8;
+    height: 200px;
+}
 .babyNamesButtons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: #C8C8C8;
+    
     padding: 20px;
     border-top: 2px solid black;
-    justify-content: centerg;
+    justify-content: center;
 }
+
 

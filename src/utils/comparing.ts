@@ -1,4 +1,4 @@
-import {babyName} from "../ContainerForButtons"
+import {babyName} from "../components/ContainerForButtons"
 
 export function comparing (a : babyName, b: babyName) : number{
         if(a.name < b.name) { return -1; }
